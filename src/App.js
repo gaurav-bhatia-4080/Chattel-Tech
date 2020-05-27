@@ -9,7 +9,7 @@ function App() {
         <nav className="navbar navbar-expand-lg fixed-top">
           <div className="container">
             { /* Logo*/}
-            <img src={ require("img/logo.png")} alt="logo" style={{width: 50, height: 50, marginRight: 5, alignSelf: 'flex-start'}} />
+            <img src={ require("./img/logo.png")} alt="logo" style={{width: 50, height: 50, marginRight: 5, alignSelf: 'flex-start'}} />
             <a className="navbar-brand" href="#"><h3 style={{color: 'black'}}>Chattel</h3></a>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i className="fas fa-bars"></i></button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,13 +38,13 @@ function App() {
 
                 <div className="row">
                   <div className="col-sm ">
-                    <img src={ equire("img/analytics2.jpg")} alt="Analytics" className="img-responsive" style={{margin: 5}} />
+                    <img src={ require("./img/analytics2.jpg")} alt="Analytics" className="img-responsive" style={{margin: 5}} />
                   </div>
                   <div className="col-sm img-responsive">
-                    <img src={ require("img/analytics3.jpg")} alt="Curation" className="img-responsive" style={{margin: 5}} />
+                    <img src={ require("./img/analytics3.jpg")} alt="Curation" className="img-responsive" style={{margin: 5}} />
                   </div>
                   <div className="col-sm img-responsive">
-                    <img src={ require("img/analytics4.jpg")} alt="Visualization" className="img-responsive" style={{margin: 5}} />
+                    <img src={ require("./img/analytics4.jpg")} alt="Visualization" className="img-responsive" style={{margin: 5}} />
                   </div>
                 </div>
                 <br />
@@ -131,7 +131,7 @@ function App() {
           &nbsp; 
           &nbsp;
           <div className="row align-items-center mb-5" id = "bot">
-            <div className="col-lg-6 mb-5 mb-lg-0" id="seven"><img className="img-fluid w-100 px-lg-5 img-responsive" src= {require("img/img-4.png")} alt="Chattel bot" style={{ width:300 , height:300 }} /></div>
+            <div className="col-lg-6 mb-5 mb-lg-0" id="seven"><img className="img-fluid w-100 px-lg-5 img-responsive" src= {require("./img/img-4.png")} alt="Chattel bot" style={{ width:300 , height:300 }} /></div>
               <div className="col-lg-6" id="five"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
                 <h2 className="font-weight-light">Chattel Bot</h2>
                 <p className="font-italic text-muted mb-4">We are continuously trying to overcome inefficiencies of human in rapid fluctuating market. Our bot will ensure 
@@ -235,7 +235,7 @@ function App() {
                   Indiranagar, Bengaluru, Karnataka-560038, India</p>
               </div>
             </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
             <div className="row" >    
               <div className="col-md-7 col-md-push-1">
                 <div className="row" style={{margin: 10}}>
