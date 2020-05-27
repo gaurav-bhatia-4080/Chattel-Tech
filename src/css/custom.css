@@ -1,0 +1,112 @@
+/* your styles go here */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+
+  .contact {
+    padding-top: 4em;
+    padding-bottom: 9em;
+    clear: both;
+    width: 100%;
+    display: block; }
+
+@media screen and (max-width: 768px) {
+    .contact {
+        padding-top: 5em;
+        padding-bottom: 8em; } }  
+
+
+.colorlib-feature {
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    position: relative; }
+.colorlib-feature .colorlib-icon {
+position: absolute;
+top: 0;
+left: 0;
+width: 100px;
+height: 100px;
+display: table;
+text-align: center;
+background: #f2f3f7;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-ms-border-radius: 2px;
+border-radius: 2px; }
+.colorlib-feature .colorlib-icon i {
+display: table-cell;
+vertical-align: middle;
+color: #2c98f0;
+font-size: 60px;
+height: 100px; }
+@media screen and (max-width: 1200px) {
+    .colorlib-feature .colorlib-icon i {
+    font-size: 40px; } }
+.colorlib-feature .colorlib-text {
+padding-left: 120px;
+width: 100%; }
+.colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
+margin: 0;
+padding: 0; }
+.colorlib-feature .colorlib-text h3 {
+font-weight: 500;
+margin-bottom: 20px;
+color: rgba(0, 0, 0, 0.7);
+font-size: 14px;
+letter-spacing: 3px;
+text-transform: uppercase; }
+.colorlib-feature.colorlib-feature-sm .colorlib-text {
+margin-top: 30px; }
+.colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+color: #2c98f0;
+font-size: 40px; }
+@media screen and (max-width: 1200px) {
+.colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+    font-size: 28px; } }
+
+.colorlib-narrow-content {
+    padding: 0 2.5em; }
+    @media screen and (max-width: 768px) {
+        .colorlib-narrow-content {
+        padding: 0; } }
+            
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+@media screen and (max-width: 531px) {
+  .container { margin-top: 5px; }
+  div#one { order: 1; }
+  div#two { order: 2;  }
+  div#three { order: 3; }
+  div#four { order: 4; }
+  div#five { order: 5; }
+  div#six { order: 6; }
+}
