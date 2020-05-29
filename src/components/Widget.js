@@ -17,10 +17,11 @@ function Widget() {
     }
 
     return (
-        <div style={{marginLeft:"3em"}}>
+        <div style={{marginLeft:"3em", backgroundColor: '#222831'}}>
             {/* <h2>Stock Widget #1</h2> */}
+           <div style={{paddingBottom: "5px"}}> 
             <form onSubmit={handleSubmit}>
-                <input style={{"width":"75%"}}
+                <input style={{"width":"75%", backgroundColor: '#b0f0f7'}}
                     type="text"
                     value={stockSymbol}
                     list='stocks'
@@ -28,7 +29,7 @@ function Widget() {
                     placeholder="Enter Symbol or Select using Dropdown"
                     onChange={handleChange}
                 />
-                <button type='submit'>Check</button>
+                <button type='submit' style={{backgroundColor: '#d0d6ab', width: "105px",height:"30px", paddingRight: '15px'}}><strong>Check</strong></button>
                 <datalist id="stocks">
                     <option value="BTCUSD">BTCUSD</option>
                     <option value="EURUSD">EURUSD</option>
@@ -42,6 +43,7 @@ function Widget() {
                     <option value="AUDUSD">AUDUSD</option>
                 </datalist>
             </form>
+            </div>
             <div >
                 <div >
                     <TechnicalAnalysis 
