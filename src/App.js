@@ -1,5 +1,7 @@
 import React from 'react';
-
+import Iframe from 'react-iframe'
+import Widget from './components/Widget'
+import NewsWidgetTwo from './components/NewsWidgetTwo'
 function App() {
   return (
     <div className="App">
@@ -24,7 +26,7 @@ function App() {
       </header>
       { /*  Hero Section*/}
       <section className="hero bg-top" id="hero" style={{backgroundImage: 'img/banner-4.png', backgroundSize: '100% 80%'}}>
-        <div className="container">
+        <div className="container" style={{textAlign:'center'}}>
 
               <h2 className="font-weight-bold">BUSINESS INSIGHTS</h2>
               <p className="h4 text-uppercase text-primary">Driven By Artificial Intelligence</p>
@@ -59,7 +61,7 @@ function App() {
       </section>
         
       <section className="with-pattern-1" id="services">
-        <div className="container">
+        <div className="container" >
           <p className="h5 text-uppercase text-primary">Our Products</p>
           <br />
           
@@ -73,17 +75,13 @@ function App() {
               </p>
               <a className="btn btn-light px-5 rounded-pill shadow-sm" data-toggle="collapse" data-target="#demo2">Learn More</a>
             </div>
-            <div className="col-lg-6 mb-5 mb-lg-0" id="two"><img className="img-fluid w-100 px-lg-5 img-responsive" src="img/img-1.png" alt="Chattel AI" /></div>
+            <div className="col-lg-6 mb-5 mb-lg-0" id="two"><img className="img-fluid w-100 px-lg-5 img-responsive" src={ require("./img/img-1.png")}  alt="Chattel AI" /></div>
           </div>
-
+          <br /><br /><br />
           <div className="row align-items-center mb-5" id = "news">
-            <div className="ex3 col-lg-6 mb-5 mb-lg-0" id="four">
-              {/*<iframe width="400" height="315" src={ require("https://tech.economictimes.indiatimes.com/widget/corporate")} frameborder="0"></iframe>*/}
-            </div> 
-              &nbsp; 
-              &nbsp;
-              &nbsp;
-            { /* <div className="col-lg-6 mb-5 mb-lg-0" id="four"><img className="img-fluid w-100 px-lg-5 img-responsive" src="img/img-1.jpg" alt="Chattel News" /></div>*/}
+            <div className="col-lg-6">
+              <NewsWidgetTwo />
+            </div>
             <div className="col-lg-6" id="three"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light">Chattel News</h2>
               <p className="font-italic text-muted mb-4">We collect information from an ever-expanding sea of sources, de-dupe, curate, and prepare a detailed and succinct executive summary
@@ -108,24 +106,7 @@ function App() {
                 { /* <a className="btn btn-light px-5 rounded-pill shadow-sm" data-toggle="collapse" data-target="#demo">Learn More</a>*/}
 
             </div>
-              { /*               TradingView Widget BEGIN 
-                      <div className="col-lg-6 mb-5 mb-lg-0 img-fluid w-100 px-lg-5 img-responsive" id="six">
-                        <div className="tradingview-widget-container__widget"></div>
-                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
-                            {
-                            "interval": "1W",
-                            "width": 400,
-                            "isTransparent": false,
-                            "height": 400,
-                            "symbol": "NSE:RELIANCE",
-                            "showIntervalTabs": true,
-                            "locale": "in",
-                            "colorTheme": "light"
-                            }
-                      
-                        </script>
-                      </div>
-              TradingView Widget END        */ } 
+            <Widget />
           </div>
           &nbsp; 
           &nbsp;
@@ -165,50 +146,55 @@ function App() {
                         </svg> */
                       }
                   
-                  </div>
+                  
                     <h3 className="font-weight-normal h4 my-4">Curation </h3>
                     <p className="text-small mb-0">We are a "event prone" knowledge gathering and curating approach, discovering
                       a method of madness and developing perspectives that you can trust.
                       We collect and curate relevant data
                       from a wide range of sources.</p>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                { /*  Services Item*/}
+                <div className="card border-0 shadow rounded-lg py-4 text-left">
+                  <div className="card-body p-5">
+                    {
+                      /*
+                        <svg className="svg-icon svg-icon-light" style="width:60px;height:60px;color:#39f8d2">
+                          <use xlink:href="#map-marker-1"> </use>
+                        </svg>
+                      */
+                    }
+                    <h3 className="font-weight-normal h4 my-4">Analytics </h3>
+                    <p className="text-small mb-0">We take complete, and efficient advantage of using Supervised and Unsupervised Machine Learning algorithms
+                      to continually learn from historical data, identify patterns and trends, and apply real-time intelligence.</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="col-lg-4 col-md-6">
+                { /*  Services Item*/}
+                <div className="card border-0 shadow rounded-lg py-4 text-left">
+                  <div className="card-body p-5">
+                    {
+                      /*
+                        <svg className="svg-icon svg-icon-light" style="width:60px;height:60px;color:#8190ff">
+                          <use xlink:href="#arrow-target-1"> </use>
+                        </svg>
+                      */
+                    }
+                    <h3 className="font-weight-normal h4 my-4">Insights</h3>
+                    <p className="text-small mb-0">We produce investor perception reports that affect markets predictably; make it worthwhile to
+                      interpret economic and market perceptions to make smarter and more informed investment decisions. </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              { /*  Services Item*/}
-              <div className="card border-0 shadow rounded-lg py-4 text-left">
-                <div className="card-body p-5">
-                  {
-                    /*
-                      <svg className="svg-icon svg-icon-light" style="width:60px;height:60px;color:#39f8d2">
-                        <use xlink:href="#map-marker-1"> </use>
-                      </svg>
-                    */
-                  }
-                  <h3 className="font-weight-normal h4 my-4">Analytics </h3>
-                  <p className="text-small mb-0">We take complete, and efficient advantage of using Supervised and Unsupervised Machine Learning algorithms
-                    to continually learn from historical data, identify patterns and trends, and apply real-time intelligence.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              { /*  Services Item*/}
-              <div className="card border-0 shadow rounded-lg py-4 text-left">
-                <div className="card-body p-5">
-                  {
-                    /*
-                      <svg className="svg-icon svg-icon-light" style="width:60px;height:60px;color:#8190ff">
-                        <use xlink:href="#arrow-target-1"> </use>
-                      </svg>
-                    */
-                  }
-                  <h3 className="font-weight-normal h4 my-4">Insights</h3>
-                  <p className="text-small mb-0">We produce investor perception reports that affect markets predictably; make it worthwhile to
-                    interpret economic and market perceptions to make smarter and more informed investment decisions. </p>
-                </div>
-              </div>
-            </div>
-            </div>
+          </div>
           
         </section>
       </section>
@@ -226,16 +212,23 @@ function App() {
             </div>
             <div className="row">
               <div className="col-md-5">
-                {/*<iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>*/}
+                {/* <iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
+                <Iframe 
+                  url="http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed"
+                  width="400px" 
+                  height="300px"
+                  frameBorder="0"
+                  allowFullScreen=""
+                  tabIndex="0"
+                  style={{border:0,marginRight: 10}}
+                
+                />
                 <br />
                 <br />
                 <p className="h5 text-uppercase text-primary" >Chattel Technologies</p>
                 <p className="text-small mb-0">39, NGEF Ln, Binnamangala, 1st Stage, <br />
                   Indiranagar, Bengaluru, Karnataka-560038, India</p>
               </div>
-            </div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-            <div className="row" >    
               <div className="col-md-7 col-md-push-1">
                 <div className="row" style={{margin: 10}}>
                   <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
@@ -264,6 +257,7 @@ function App() {
                 </div>
               </div>
             </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           </div>
         </div>
       </section>

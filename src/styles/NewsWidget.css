@@ -1,0 +1,8 @@
+#news-widget__main {
+    height: 40rem;
+    overflow-y: scroll;
+}
+
+#news-widget__moreinfo:hover {
+    text-decoration: none;
+}
