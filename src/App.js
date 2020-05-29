@@ -24,7 +24,7 @@ function App() {
         </nav>
       </header>
       { /*  Hero Section*/}
-      <section className="hero bg-top" id="hero" style={{backgroundImage: url('img/banner-4.png'), backgroundRepeat: no-repeat, backgroundSize: '100% 80%', textAlign: center}}>
+      <section className="hero bg-top" id="hero" style={{backgroundImage: 'img/banner-4.png', backgroundSize: '100% 80%'}}>
         <div className="container">
 
               <h2 className="font-weight-bold">BUSINESS INSIGHTS</h2>
@@ -79,7 +79,7 @@ function App() {
 
           <div className="row align-items-center mb-5" id = "news">
             <div className="ex3 col-lg-6 mb-5 mb-lg-0" id="four">
-              <iframe width="400" height="315" src={ require("https://tech.economictimes.indiatimes.com/widget/corporate")} frameborder="0"></iframe>
+              {/*<iframe width="400" height="315" src={ require("https://tech.economictimes.indiatimes.com/widget/corporate")} frameborder="0"></iframe>*/}
             </div> 
               &nbsp; 
               &nbsp;
@@ -150,7 +150,7 @@ function App() {
         
       </section>
 
-      <section className="bg-center py-0" id="about" style={{backgroundImage: url(img/service-bg.svg), backgroundRepeat: no-repeat, backgroundSize: cover}}>
+      <section className="bg-center py-0" id="about" style={{backgroundImage: "img/service-bg.svg"}}>
         <section className="about py-0">
           <div className="container">
             <p className="h5 text-uppercase text-primary">About Us</p>
@@ -227,7 +227,7 @@ function App() {
             </div>
             <div className="row">
               <div className="col-md-5">
-                <iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                {/*<iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>*/}
                 <br />
                 <br />
                 <p className="h5 text-uppercase text-primary" >Chattel Technologies</p>
