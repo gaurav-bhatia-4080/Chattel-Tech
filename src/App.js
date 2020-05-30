@@ -269,12 +269,12 @@ function App() {
 
 
       <footer className="with-pattern-1 position-relative" style={{backgroundColor: '#1b3152'}}>
-        <div className="container section-padding-y" style={{paddingLeft: '10px'}}>
-          <div className="row">
-            <div className="col-lg-3 mb-5 mb-lg-0"> <h4>Chattel</h4> <br />
+        <div className="container-fluid section-padding-y" >
+          <div className="row justify-content-around">
+            <div className="col-lg-4 mb-4 mb-lg-0" style={{paddingRight: 112,marginLeft:45}}> <h4>Chattel</h4> <br />
               <p className="text-muted" style={{fontSize: '1.3em'}}>With the passing decade, world market will be virtual and bots will do the business. Are you eqipped with latest technological tool?</p>
             </div>
-            <div className="col-lg-2 mb-5 mb-lg-0" style={{paddingLeft: '50px'}}>
+            <div className="col-lg-2 mb-2 mb-lg-0" >
               <h2 className="h5 mb-4">Quick Links</h2>
               <div className="d-flex">
                 <ul className="list-unstyled d-inline-block mr-4 mb-0">
@@ -285,7 +285,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 mb-5 mb-lg-0" style={{paddingLeft: '50px'}}>
+            <div className="col-lg-2 mb-2 mb-lg-0" >
               <h2 className="h5 mb-4">Services</h2>
               <div className="d-flex">
                 <ul className="list-unstyled mr-4 mb-0">
@@ -296,7 +296,7 @@ function App() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-5" style={{paddingLeft: '80px'}}>
+            <div className="col-lg-2">
               <h2 className="h5 mb-4">Contact Info</h2>
               <ul className="list-unstyled mr-4 mb-3">
                 <li className="mb-2 text-muted">Bangalore </li>
