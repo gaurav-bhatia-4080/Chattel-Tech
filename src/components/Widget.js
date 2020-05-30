@@ -27,10 +27,10 @@ function Widget() {
                     value={stockSymbol}
                     list='stocks'
                     name="stockSymbol"
-                    placeholder="Choose from dropdown"
+                    placeholder="Choose from dropdown or type symbol"
                     onChange={handleChange}
                 />
-                <button type='submit' style={{border: '0',borderRadius:'8px',marginLeft:'5px', backgroundColor: '#d0d6ab', width: "95px",height:"30px"}}><strong>Check</strong></button>
+                <button type='submit' style={{border: '0',borderRadius:'8px',marginLeft:'5px', backgroundColor: '#daa850', width: "95px",height:"30px"}}><strong>Check</strong></button>
                 <datalist id="stocks">
                     <option value="BTCUSD">BTCUSD</option>
                     <option value="EURUSD">EURUSD</option>
