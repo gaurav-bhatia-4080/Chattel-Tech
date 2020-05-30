@@ -2507,7 +2507,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .shadow {
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 1) !important;
 }
 
 .shadow-lg {
@@ -2946,6 +2946,7 @@ code {
 
 .card-body {
   padding: 1.25rem;
+  height: 24em;
 }
 
 .card-title {

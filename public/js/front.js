@@ -6,15 +6,18 @@ $(function () {
     $(window).on('scroll load', function () {
         if ($(window).scrollTop() > 5) {
             $('.navbar').addClass('active');
+            $('.navbar').addClass('shadow');
+
         } else {
             $('.navbar').removeClass('active');
+            $('.navbar').removeClass('shadow');
         }
 
-        if ($(window).scrollTop() > 1000) {
-            $('#scrollTop').addClass('active');
-        } else {
-            $('#scrollTop').removeClass('active');
-        }
+        // if ($(window).scrollTop() > 1000) {
+        //     $('#scrollTop').addClass('active');
+        // } else {
+        //     $('#scrollTop').removeClass('active');
+        // }
     });
 
 

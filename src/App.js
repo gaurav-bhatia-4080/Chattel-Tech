@@ -8,7 +8,7 @@ function App() {
     <div className="App" style={{backgroundColor: "#222831"}}>
       { /* navbar*/ }
       <header className="header">
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-expand-lg fixed-top" >
           <div className="container">
             { /* Logo*/}
             <img src={ require("./img/CHATTEL_cc1.png")} alt="logo" style={{width: 200, height: 80, marginRight: 5, alignSelf: 'flex-start'}} />
@@ -193,6 +193,7 @@ function App() {
                     <h3 className="font-weight-normal h4 my-4" style={{color: '#222831'}}>Insights</h3>
                     <p className="text-small mb-0"><strong>We produce investor perception reports that affect markets predictably; make it worthwhile to
                       interpret economic and market perceptions to make smarter and more informed investment decisions.<p></p></strong></p>
+                    
                   </div>
                 </div>
               </div>

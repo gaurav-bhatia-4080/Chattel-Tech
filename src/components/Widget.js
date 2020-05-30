@@ -16,6 +16,7 @@ function Widget() {
         setStockValue(stockSymbol)
     }
 
+
     return (
         <div style={{marginLeft:"3em", backgroundColor: '#222831'}}>
             {/* <h2>Stock Widget #1</h2> */}
@@ -50,6 +51,8 @@ function Widget() {
                         key={stockValue ? stockValue : 'NASDAQ:AAPL'}
                         symbol={stockValue ? stockValue : 'NASDAQ:AAPL'}
                         interval={"1W"}
+                        colorTheme={"dark"}
+                        isTransparent={"true"}
                     />
                 </div>
             </div>
