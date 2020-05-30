@@ -1458,9 +1458,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #5954cb;
-  border-color: #5954cb;
+  color: #222831;
+  background-color: #daa850;
+  border-color: #fff;
 }
 
 .btn-primary:hover {
@@ -1663,7 +1663,7 @@ STYLE SWITCHER FOR DEMO
 
 .btn-light {
   color: #212529;
-  background-color: #F7FAFF;
+  background-color: #daa850;
   border-color: #F7FAFF;
 }
 
@@ -2875,8 +2875,10 @@ code {
 */
 .nav-link {
   padding: 0.5rem 1rem;
+  margin-left: 50px;
   font-weight: 600;
-  color:  rgba(235, 238, 208, 0.9);
+  font-size: 1.5em;
+  color:  #daa850;
 }
 
 .nav-link.disabled {
@@ -2884,7 +2886,7 @@ code {
 }
 
 .nav-link.active {
-  color: #5954cb;
+  color: #c5c3df;
 }
 
 .nav-tabs .nav-item {
@@ -2908,6 +2910,7 @@ code {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
+  font-size: 1.5em;
   background-color: #fff;
 }
 
@@ -2916,6 +2919,7 @@ code {
 }
 
 .nav-pills .nav-link {
+  font-size: 1.5em;
   border-radius: 0.25rem;
 }
 
