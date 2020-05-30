@@ -80,7 +80,7 @@ function App() {
           </div>
           <br /><br /><br />
           <div className="row align-items-center mb-5" id = "news">
-            <div className="col-lg-6">
+            <div className="col-lg-6 d-flex justify-content-center">
               
               <NewsWidgetTwo />
               
@@ -222,27 +222,29 @@ function App() {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-5">
+              <div className="col-md-5 d-flex justify-content-center flex-column">
                 {/* <iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
-                <Iframe 
-                  url="http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed"
-                  width="400px" 
-                  height="350px"
-                  frameBorder="0"
-                  allowFullScreen=""
-                  tabIndex="0"
-                  style={{frameBorder:1,marginRight: 10, paddingTop: '100px'}}
-                
-                />
+                <div style={{margin: "auto"}}>
+                    <Iframe 
+                    url="http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed"
+                    width="100%" 
+                    height="350px"
+                    frameBorder="0"
+                    allowFullScreen=""
+                    tabIndex="0"
+                    style={{frameBorder:1,marginRight: 10, paddingTop: '100px'}}
+                  
+                    />
+                </div>
                 <br />
                 <br />
                 <p className="h5 text-uppercase text-primary" >Chattel Technologies</p>
                 <p className="text-small mb-0" style={{color: '#d0d6ab'}}>39, NGEF Ln, Binnamangala, 1st Stage, <br />
                   Indiranagar, Bengaluru, Karnataka-560038, India</p>
               </div>
-              <div className="col-md-7 col-md-push-1 rounded-lg">
+              <div className="col-md-7 col-md-push-1 rounded-lg ">
                  
-                <div className="row rounded-lg" style={{paddingLeft: '100px', paddingTop: '20px'}}>
+                <div className="row rounded-lg" >
                   <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
                     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/d3dileep@gmail.com" method="post">
                       <fieldset id="fs-frm-inputs">
