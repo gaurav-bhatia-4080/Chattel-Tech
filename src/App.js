@@ -318,7 +318,6 @@ function App() {
                 <li className="list-inline-item"><a className="social-link" href="#"><i className="fab fa-instagram"></i></a></li>
               </ul>
 
-                
             </div>
             
           </div>
