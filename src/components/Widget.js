@@ -18,19 +18,19 @@ function Widget() {
 
 
     return (
-        <div style={{marginLeft:"3em", backgroundColor: '#222831'}}>
+        <div style={{marginLeft:"3em", backgroundColor: '#222831', marginTop: '220px'}}>
             {/* <h2>Stock Widget #1</h2> */}
            <div style={{paddingBottom: "5px"}}> 
             <form onSubmit={handleSubmit}>
-                <input style={{"width":"75%", backgroundColor: '#b0f0f7'}}
+                <input style={{"width":"70%", textAlign: 'center',backgroundColor: '#b0f0f7', border:'0',height:'30px', borderRadius: '8px'}}
                     type="text"
                     value={stockSymbol}
                     list='stocks'
                     name="stockSymbol"
-                    placeholder="Enter Symbol or Select using Dropdown"
+                    placeholder="Choose from dropdown"
                     onChange={handleChange}
                 />
-                <button type='submit' style={{backgroundColor: '#d0d6ab', width: "105px",height:"30px", paddingRight: '15px'}}><strong>Check</strong></button>
+                <button type='submit' style={{border: '0',borderRadius:'8px',marginLeft:'5px', backgroundColor: '#d0d6ab', width: "95px",height:"30px"}}><strong>Check</strong></button>
                 <datalist id="stocks">
                     <option value="BTCUSD">BTCUSD</option>
                     <option value="EURUSD">EURUSD</option>
