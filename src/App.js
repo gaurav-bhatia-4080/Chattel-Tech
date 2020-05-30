@@ -85,6 +85,7 @@ function App() {
               <NewsWidgetTwo />
               
             </div>
+
             <div className="col-lg-6" id="three"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light" style={{color: "#fff"}}>Chattel News</h2>
               <p className="font-italic text-muted mb-4">We collect information from an ever-expanding sea of sources, de-dupe, curate, and prepare a detailed and succinct executive summary
@@ -95,8 +96,10 @@ function App() {
                 <a className="btn btn-light px-5 rounded-pill shadow-sm" data-toggle="collapse" data-target="#demo1">Learn More</a>
             </div>
           </div>
+          
+          
 
-          <div className="row align-items-center mb-5" id = "stock">
+          <div className="row align-items-center mb-5" id = "stock" style={{marginBottom: '30px'}}>
             <div className="col-lg-6" id="five"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light" style={{color: "#fff"}}>Chattel Stock</h2>
               <p className="font-italic text-muted mb-4">We continuously process the historical performance and the volatility of the stocks and
@@ -109,12 +112,16 @@ function App() {
                 { /* <a className="btn btn-light px-5 rounded-pill shadow-sm" data-toggle="collapse" data-target="#demo">Learn More</a>*/}
 
             </div>
+            <br/>
+            <br/>
             <Widget />
           </div>
           &nbsp; 
           &nbsp;
+          <br/>
+          <br/>
           <div className="row align-items-center mb-5" id = "bot">
-            <div className="col-lg-6 mb-5 mb-lg-0" id="seven"><img className="img-fluid w-100 px-lg-5 img-responsive" src= {require("./img/img-4.png")} alt="Chattel bot" style={{ width:300 , height:300 }} /></div>
+            <div className="col-lg-6 mb-5 mb-lg-0" id="seven" style={{borderRadius: '10px'}}><img className="img-fluid w-100 px-lg-5 img-responsive" src= {require("./img/img-4.png")} alt="Chattel bot" style={{ marginRight: '80px',width:300 , height:300, borderRadius: '10px'}} /></div>
               <div className="col-lg-6" id="five"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
                 <h2 className="font-weight-light" style={{color: "#fff"}}>Chattel Bot</h2>
                 <p className="font-italic text-muted mb-4">We are continuously trying to overcome inefficiencies of human in rapid fluctuating market. Our bot will ensure 
@@ -233,8 +240,9 @@ function App() {
                 <p className="text-small mb-0" style={{color: '#d0d6ab'}}>39, NGEF Ln, Binnamangala, 1st Stage, <br />
                   Indiranagar, Bengaluru, Karnataka-560038, India</p>
               </div>
-              <div className="col-md-7 col-md-push-1 rounded-lg" style={{paddingBottom: '40px'}}>
-                <div className="row rounded-lg" style={{margin: 10, backgroundColor: "#d7e0c1", paddingTop: '20px'}}>
+              <div className="col-md-7 col-md-push-1 rounded-lg">
+                 
+                <div className="row rounded-lg" style={{paddingLeft: '100px', paddingTop: '20px'}}>
                   <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box">
                     <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/d3dileep@gmail.com" method="post">
                       <fieldset id="fs-frm-inputs">
