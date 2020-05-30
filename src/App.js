@@ -32,7 +32,7 @@ function App() {
               <h2 className="font-weight-bold" style={{color: "#fff"}}>BUSINESS INSIGHTS</h2>
               <p className="h4 text-uppercase text-primary">Driven By Artificial Intelligence</p>
               <br />
-              <p className="my-4 text-muted">90% of all data in the world was created in last 2 years. It is humanly impossible to collect all relevant data real time without exceptions.
+              <p className="my-4 text-muted">90% of all data in the world was created over the last decade. It is humanly impossible to collect all relevant data real time without exceptions.
 
                 However, considering relevant information from all available information in order to make prudent investment decisions has proven to be profitable.</p>
 
