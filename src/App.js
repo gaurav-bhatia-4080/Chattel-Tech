@@ -82,10 +82,10 @@ function App() {
 
           {/* NEWS Services */}
           <div className="row" id="news">
-            <div className="col-md-6 d-flex justify-content-center">
+            <div className="col-md-6 d-flex justify-content-center" id="four">
               <NewsWidgetTwo />
             </div>
-            <div className="col-md-6"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+            <div className="col-md-6" id="three"><i className="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
               <h2 className="font-weight-light" style={{ color: "#fff" }}>Chattel News</h2>
               <p className="font-italic text-muted mb-4">We collect information from an ever-expanding sea of sources, de-dupe, curate, and prepare a detailed and succinct executive summary
                 of the news and its subsequent reactions and reactions produced by various digital media tailored to you and your company. </p>
@@ -128,7 +128,7 @@ function App() {
           <br />
 
           <div className="row align-items-center mb-5" id="bot">
-            <div className="col-md-6 mb-5 mb-lg-0" id="seven" style={{ borderRadius: '10px' }}>
+            <div className="col-md-6 mb-5 mb-lg-0" id="six" style={{ borderRadius: '10px' }}>
               <img className="img-fluid w-100 px-lg-5 img-responsive" src={require("./img/img-4.png")} alt="Chattel bot" />
             </div>
             <div className="col-md-6" id="five">
