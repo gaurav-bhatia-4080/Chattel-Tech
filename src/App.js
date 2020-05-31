@@ -77,7 +77,6 @@ function App() {
               <img className="img-fluid w-100 px-lg-5 img-responsive" src={require("./img/img-1.png")} alt="Chattel AI" />
             </div>
           </div>
-          <hr className="my-4" />
           <br /><br /><br />
 
           {/* NEWS Services */}
@@ -95,7 +94,6 @@ function App() {
               <a className="btn btn-light px-5 rounded-pill shadow-sm" data-toggle="collapse" data-target="#demo1">Learn More</a>
             </div>
           </div>
-          <hr className="my-4" />
           <br /><br /><br />
 
           {/* STOCK Services */}
@@ -121,11 +119,8 @@ function App() {
           </div>
           {/* <hr className="my-4" /> */}
 
-          &nbsp;
-          &nbsp;
           <br />
-          <br />
-          <br />
+
 
           <div className="row align-items-center mb-5" id="bot">
             <div className="col-md-6 mb-5 mb-lg-0" id="six" style={{ borderRadius: '10px' }}>
