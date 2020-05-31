@@ -119,7 +119,7 @@ function App() {
               <Widget />
             </div>
           </div>
-          <hr className="my-4" />
+          {/* <hr className="my-4" /> */}
 
           &nbsp;
           &nbsp;
@@ -148,9 +148,9 @@ function App() {
       {/* END OF SERVICES.................................................................... */}
 
       <section className="bg-center py-0" id="about" style={{ backgroundImage: "img/service-bg.svg" }}>
-        <section className="about py-0">
+        <section className="about">
           <div className="container" style={{ textAlign: "center" }}>
-            <p className="h2 text-uppercase text-primary">About Us</p>
+            <p className="h3 text-uppercase text-primary">About Us</p>
             <br />
             <div className="row pb-5">
               <div className="col-md-4 mb-4 mb-lg-0">

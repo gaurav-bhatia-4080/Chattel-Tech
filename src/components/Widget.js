@@ -52,6 +52,7 @@ function Widget() {
                     interval={"1W"}
                     colorTheme={"dark"}
                     isTransparent={"true"}
+                    width={"100%"}
                 />
             </div>
         </div>
