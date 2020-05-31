@@ -115,7 +115,7 @@ function App() {
             </div>
             {/* <br />
             <br /> */}
-            <div className="col-md-6">
+            <div className="col-md-6" id="six">
               <Widget />
             </div>
           </div>
