@@ -141,9 +141,9 @@ function App() {
       </section>
 
       <section className="bg-center py-0" id="about" style={{backgroundImage: "img/service-bg.svg"}}>
-        <section className="about py-0">
+        <section className="about ">
           <div className="container">
-            <p className="h2 text-uppercase text-primary">About Us</p>
+            <p className="h3 text-uppercase text-primary">About Us</p>
             <br />
             <div className="row pb-5">
               <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">

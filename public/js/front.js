@@ -46,20 +46,36 @@ $(function () {
     // ================================================
     // Preventing URL update on navigation link click
     // ================================================
-    $('.link-scroll').on('click', function (e) {
-        var anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $(anchor.attr('href')).offset().top
-        }, 1000);
-        e.preventDefault();
+    // $('.link-scroll').on('click', function (e) {
+    //     var anchor = $(this);
+    //     $('html, body').stop().animate({
+    //         scrollTop: $(anchor.attr('href')).offset().top
+    //     }, 1000);
+    //     e.preventDefault();
+    // });
+
+    // smooth scroll
+    $("a").on("click", function(event) {
+
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $("html, body").animate({
+
+                scrollTop: $(hash).offset().top - 100
+
+            }, 850);
+
+        }
+
     });
-
-
     // ================================================
     // Scroll Spy
     // ================================================
     $('body').scrollspy({
         target: '#navbarSupportedContent',
-        offset: 80
+        // offset: 100
     });
 });
