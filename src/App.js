@@ -218,16 +218,8 @@ function App() {
               <div className="col-md-5 d-flex justify-content-center flex-column">
                 {/* <iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
                 <div style={{ margin: "auto" }}>
-                  <Iframe
-                    url="http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed"
-                    width="100%"
-                    height="350px"
-                    frameBorder="0"
-                    allowFullScreen=""
-                    tabIndex="0"
-                    style={{ frameBorder: 1, marginRight: 10, paddingTop: '100px' }}
-
-                  />
+                <Iframe src="http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed" width="350" height="350" frameborder="0" style="border:0;margin-right: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></Iframe>
+  
                 </div>
                 <br />
                 <br />
