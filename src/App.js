@@ -218,8 +218,8 @@ function App() {
               <div className="col-md-5 d-flex justify-content-center flex-column">
                 {/* <iframe src={ require("http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed")} width="400" height="300" frameborder="0" style={{border:0,marginRight: 10}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
                 <div style={{ margin: "auto" }}>
-                <Iframe src="http://maps.google.com/maps?q=12.9779083,77.6396974&z=15&output=embed" width="350" height="350" frameborder="0" style="border:0;margin-right: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></Iframe>
-  
+                <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.9526351997783!2d77.63908168570498!3d12.977910404205817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae141a4ec0f5ef%3A0xc81be39fa74dbf08!2sCity%20Union%20Bank!5e0!3m2!1sen!2sin!4v1591032604359!5m2!1sen!2sin" width="350" height="370" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></Iframe>
+               
                 </div>
                 <br />
                 <br />
